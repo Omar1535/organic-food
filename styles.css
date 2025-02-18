@@ -1,0 +1,25 @@
+nav div{
+    background-color: rgb(235, 235, 164);
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    justify-items: center;
+}
+nav button{
+    padding: 5px;
+    justify-items: center;
+    height: 20px;
+    /* margin: auto */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20cm;
+}
+
+nav ul{
+    list-style-type: none;
+display: flex;
+gap: 10px;
+justify-items: center;
+padding-right: 5px;
+
+}
