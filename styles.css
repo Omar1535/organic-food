@@ -1,7 +1,7 @@
 nav div{
     background-color: rgb(235, 235, 164);
+    gap: 10px;
     display: flex;
-    gap: 5px;
     justify-content: space-between;
     justify-items: center;
 }
@@ -22,4 +22,35 @@ gap: 10px;
 justify-items: center;
 padding-right: 5px;
 
+}
+
+.navbar-second{
+    background-color: azure;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(185, 181, 188);
+    background-color: rgb(232, 5, 73);
+    padding: 6px;
+    border-radius: 15px;
+}
+
+nav input{
+    height: 30px;
+    /* margin:auto */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0%;
 }
