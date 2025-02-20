@@ -104,3 +104,20 @@ nav input {
     background-color: black;
     box-shadow: none;
 }
+
+/* Latest products */
+.Latest-products-header{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Delius", serif;
+    color: black;
+}
+
+.Latest-products-content a{
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    font-family: "Delius", serif;
+    color: black;
+}
