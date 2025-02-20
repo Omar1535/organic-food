@@ -22,8 +22,6 @@ nav ul {
     gap: 10px;
     justify-items: center;
     padding-right: 5px;
-    /* font-size */
-    font-size: 10px;
 }
 
 .navbar-second {
@@ -71,4 +69,38 @@ nav input {
 .hero h1 {
     font-size: 50px;
     color: greenyellow;
+}
+
+/* Welcome Section */
+.welcome-content{
+    margin-top: 50px;
+}
+
+.welcome-header{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Delius", serif;
+}
+
+.welcome-description{
+    font-size: 15px;
+    color: black;
+    font-family: "Delius", serif;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#btn{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+#btn:hover{
+    background-color: black;
+    box-shadow: none;
 }
